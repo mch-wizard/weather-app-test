@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&display=swap" rel="stylesheet"> 
+    <title>Weather App - test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="top">
+            <h1>weather app</h1>
+            <div class="main-info">
+                <div>
+                    <h3 class="city-name"></h3>
+                    <input type="text" placeholder="Enter a city name..."><button>Wyślij</button>
+                    <p class="warning"></p>
+                </div>
+                <img src="" alt="A picture showing the weather" class="photo">
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="headings">
+                <p>Weather:</p>
+                <p>Temperature:</p>
+                <p>Humidity:</p>
+            </div>
+            <div class="weather-info">
+                <p class="weather"></p>
+                <p class="temp"></p>
+                <p class="humidity"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

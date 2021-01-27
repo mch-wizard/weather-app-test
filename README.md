@@ -1,4 +1,4 @@
-# BUDMAG-RZESZOW Dariusz Chmaj 
+# Weather App
 Preview: https://mch-weather-app.netlify.app/
 
 ## Purpose
